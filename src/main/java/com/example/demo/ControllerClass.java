@@ -31,7 +31,7 @@ public class ControllerClass {
 	private String storeToDb(RequestPayload requestpayload) throws JsonProcessingException {
 		
 		requestpayload.x = "nish";
-		requestpayload.y = "bpraak.nish";
+		requestpayload.y = "bpraakolol.nish";
 		
 		ObjectWriter ow = new ObjectMapper().writer();
 		String json = ow.writeValueAsString(requestpayload);
